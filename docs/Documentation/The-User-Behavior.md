@@ -8,7 +8,7 @@ class User extends Table {
 	public function initialize() {
 		parent::initialize();
 		$this->loadBehavior('Burzum/UserTools.User');
-	);
+	}
 }
 ```
 
