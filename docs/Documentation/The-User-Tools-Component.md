@@ -8,7 +8,7 @@ UsersController extends AppController {
 	public function initialize() {
 		parent::initialize();
 		$this->loadComponent('Burzum/UserTools.UserTool');
-	);
+	}
 }
 ```
 
